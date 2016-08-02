@@ -26,7 +26,7 @@ for the magic to happen, first create a new project and add the template to the
 project:
 
 	$ oc new-project userXX-template
-	$ oc create -f https://raw.githubusercontent.com/gshipley/openshift3mlbparks/master/mlbparks-template.json
+	$ oc create -f https://raw.githubusercontent.com/gshipley/openshift3mlbparks/master/mlbparks-template-eap.json
 
 Now we have access to the application template in our project.  As a side note, administrators have the capability to add templates to the general *openshift* project which will in turn provide an application template to any user on the system.
 
@@ -76,6 +76,6 @@ them to develop new features, microservices, fix bugs, and more.
 As a final exercise, look at the template that was used to create the
 resources for our *mlbparks* application.
 
-    https://raw.githubusercontent.com/gshipley/openshift3mlbparks/master/mlbparks-template.json
+    https://raw.githubusercontent.com/gshipley/openshift3mlbparks/master/mlbparks-template-eap.json
 
 **End of Lab 10**
