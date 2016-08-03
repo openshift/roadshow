@@ -161,6 +161,8 @@ ensure that you substitute them for the values above.
 
 **Note:** You will need to substitute the correct name for your MongoDB Pod.
 
+**Note:** Please use $ oc exec -ti mongodb-1-dkzsp -- bash -c "mongo -u mlbparks -p mlbparks mlbparks" for Windows.
+
 Once you are connected to the database, run the following command to count the number of MLB teams added to the database:
 
 	> db.teams.count();
